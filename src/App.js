@@ -1,12 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Head from "./Header.js";
-import Card from "./Card.js";
+import './App.css';
+import Home from './routes/Home';
+import Register from './routes/Register';
+
 function App() {
   return (
     <div className="App">
-      <Head />
-      <Card />
+      {/* <Home /> */}
+      <Register />
     </div>
   );
 }
