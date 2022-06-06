@@ -19,6 +19,7 @@
   text-shadow: 2px 3px 5px #50dfdb, 0 4px 3px #141441;
   text-shadow:violet;
 }
+
 form {
   display: block;
   position: relative;
@@ -78,8 +79,6 @@ input {
   color: #65e7e3;
   text-shadow: 2px 3px 5px #2d1680, 0 4px 5px #0000ff;
 }
-
-
 
 .btn-change3 {
   

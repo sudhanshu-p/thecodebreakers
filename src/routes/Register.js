@@ -1,14 +1,14 @@
 import React from 'react';
-import "./App.css";
+import "./Register.css";
 import { Container, Row, Col } from 'reactstrap';
 
-import Header from './components/shared/Header/header.component';
-import Footer from './components/shared/Footer/footer.component';
-import Register from './components/register/register.component';
+import Header from '../components/header.component';
+import Footer from '../components/footer.component';
+import Register from '../components/register.component';
 
-function App() {
+function mRegister() {
   return (
-    <div className="App">
+    <div className="register">
     <Container>
       <Row>
         <Col>
@@ -32,4 +32,4 @@ function App() {
   );
 }
 
-export default App;
+export default mRegister;

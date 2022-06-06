@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import LoginForm from "./LoginForm";
-import ParticleBackground from "./ParticleBackground";
+import LoginForm from "../components/LoginForm";
+import './Login.css';
+// import ParticleBackground from "./ParticleBackground";
 
 function App() {
 

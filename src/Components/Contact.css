@@ -1,0 +1,91 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-title {
+    padding-bottom: 1vh;
+    margin-bottom: 3vh;
+    width: max-content;
+    border-bottom: 2px solid red;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.card-right > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-right > form > input[type=text] {
+    width: 20rem;
+    height: 30px;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.card-right > form > textarea {
+    width: 25rem;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #a3cccc;
+    padding: 10px;
+}
+
+.card-right > form > button {
+    width: 10rem;
+    height: 3rem;
+    margin-top: 1rem;
+    border-radius: 35px;
+    background-color: #a3cccc;
+    color: #061439;
+    cursor: pointer;
+}
+
+.card-right > form > button:hover {
+    background-color: #061439;
+    color: #a3cccc;
+}
+
+.card-right > form > button:active {
+    background-color: #061439;
+    color: #a3cccc;
+}
+
+.card-right > form > input:hover {
+    box-shadow: 0px 0px 10px red;
+}
+
+.card-right, .card-left {
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border-radius: 15px; */
+    background: beige;
+    border-top: 5px solid cyan;
+    color: #061439;
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: max-content;
+}
+
+.card-left > h2 {
+    padding-top: 0,8rem;
+    padding-bottom: 0.8rem;
+}

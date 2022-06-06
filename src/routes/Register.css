@@ -1,4 +1,4 @@
-.App {
+.register {
   text-align: center;
   display: block;
   background-color: black;
@@ -6,10 +6,8 @@
   background-size: cover;
   background-position: center;
   box-sizing: border-box;
-  
-   
-    
 }
+
 .row{
   margin-bottom: 2.2%;
   align-content: center;
@@ -17,7 +15,6 @@
   justify-content: center;
   background-color: rgb(7, 7, 7);
   border-radius: 56%;
-
 }
 .container .row:nth-child(2){
   background: linear-gradient(315deg,#000000,rgb(6, 59, 146));
@@ -28,6 +25,7 @@
 .container .row:nth-child(3){
   background: linear-gradient(315deg,#1d1717,rgb(6, 59, 146));
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,5 +34,3 @@
     transform: rotate(360deg);
   }
 }
-
-

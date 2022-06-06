@@ -1,6 +1,6 @@
-import "./App.css";
-import Head from "../Components/Header.js";
-import Card from "../Components/Card";
+import "./Achievement.css";
+import Head from "../components/AchievementHeader";
+import Card from "../components/AchCard";
 
 function App() {
   return (

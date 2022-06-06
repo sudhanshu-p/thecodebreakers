@@ -1,8 +1,8 @@
-import React from 'react'
-import './aa.css';
-import photo1 from "./a1.png";
-import photo2 from "./program1.jpg";
-import photo3 from "./iot2.jpg";
+import React from 'react';
+import './Newevent.css'; //formerly aa.css
+import photo1 from "../media/a1.png";
+import photo2 from "../media/program1.jpg";
+import photo3 from "../media/open1.jpg";
 
 export default function Newevent() {
     return (

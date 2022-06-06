@@ -1,5 +1,5 @@
-import dp_card from "./dp_card.png";
-import dp_card_back from "./dp_card_back.png";
+import dp_card from "../media/dp_card.png";
+import dp_card_back from "../media/dp_card_back.png";
 const detail_array = [
   {
     Name: "Person Name",
